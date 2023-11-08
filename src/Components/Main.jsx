@@ -3,7 +3,6 @@ import React from "react";
 const Main= () =>{
     return(
         <div >
-            
             <center>
                 <br></br>
                 <br></br>
