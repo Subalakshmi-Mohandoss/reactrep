@@ -8,8 +8,6 @@ function App() {
 <div style={{backgroundColor:"lightblue"}}>
   <Navbar></Navbar>
   <Main></Main>
-  <br></br><br></br><br></br><br></br><br></br>
-  <br></br><br></br><br></br>
   <Footer></Footer>
   </div>
   );
