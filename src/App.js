@@ -5,15 +5,11 @@ import Footer from './components/Footer';
 function App() {
   return(
 
-<div>
+<div style={{backgroundColor:"lightblue"}}>
   <Navbar></Navbar>
   <Main></Main>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
-  <br></br>
+  <br></br><br></br><br></br><br></br><br></br>
+  <br></br><br></br><br></br>
   <Footer></Footer>
   </div>
   );

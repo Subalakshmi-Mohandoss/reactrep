@@ -3,9 +3,9 @@ import React from "react";
 const Footer= () =>{
     return(
         <div>
-           <hr></hr>
-           <h2>123@gmail.com</h2>           
-           <hr></hr>
+           
+           <h2 style={{backgroundColor:"lavender"}}>727722euit186@skcet.ac.in</h2>           
+           <hr color="black"></hr>
         </div>
     );
 };

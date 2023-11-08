@@ -2,18 +2,25 @@ import React from "react";
 
 const Main= () =>{
     return(
-        <div>
+        <div >
+            
+            <center>
+                <br></br>
+                <br></br>
+                <br></br>
                <label for="name">Email Id: &emsp;</label>
               <input  id="name" type="box" placeholder="Email ID"></input>
+              <br></br>
            <br>
            </br>
                <label for="na">Password: &emsp;</label>
-             <input id="na" type="box" placeholder="Password"></input>
+             <input id="na" type="password" placeholder="Password"></input>
+             <br></br>
            <br>
            </br>
-               <label for="n">Submit: &emsp;</label>
-            <input id="n" type="box" placeholder="click"></input>
-            <input></input>
+               <button >Submit</button>
+            
+            </center>
         </div>
     );
 };
