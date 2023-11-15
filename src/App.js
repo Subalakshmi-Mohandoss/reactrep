@@ -14,6 +14,8 @@
 //    );
 // };
 // export default App;
+
+/*
 import Counter from "./Day3/Counter";
 
 function App(){
@@ -24,7 +26,16 @@ function App(){
    );
 };
 export default App;
-
+*/
+import DynamicRendering from "./Day3/DynamicRendering";
+function App() {
+  return (
+    <div>
+      <DynamicRendering></DynamicRendering>
+    </div>
+ );
+}
+export default App;
 
 
 
