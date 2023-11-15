@@ -40,6 +40,7 @@ function App() {
 export default App;
 
 */
+/*
 import GokuTransformation from "./Day3/GokuTransformation";
 
 function App() {
@@ -49,6 +50,18 @@ function App() {
     </div>
     );
   }
+export default App;
+*/
+
+import ToggleMessage from "./Day3/ToggleMessage";
+
+function App() {
+  return (
+    <div>
+      <ToggleMessage></ToggleMessage>
+    </div>
+  );
+}
 export default App;
 
 
