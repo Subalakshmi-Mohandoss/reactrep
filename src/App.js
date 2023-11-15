@@ -27,6 +27,8 @@ function App(){
 };
 export default App;
 */
+
+/*
 import DynamicRendering from "./Day3/DynamicRendering";
 function App() {
   return (
@@ -37,8 +39,17 @@ function App() {
 }
 export default App;
 
+*/
+import GokuTransformation from "./Day3/GokuTransformation";
 
-
+function App() {
+  return (
+    <div>
+      <GokuTransformation></GokuTransformation>
+    </div>
+    );
+  }
+export default App;
 
 
 // import { useState } from "react";
