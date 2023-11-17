@@ -15,45 +15,57 @@
 // };
 // export default App;
 
+
 /*
 import Counter from "./Day3/Counter";
 
 function App(){
-   return(
-      <div>
-         <Counter></Counter>
-      </div>
-   );
-};
-export default App;
-*/
-
-/*
-import DynamicRendering from "./Day3/DynamicRendering";
-function App() {
-  return (
+  return(
     <div>
-      <DynamicRendering></DynamicRendering>
-    </div>
- );
-}
-export default App;
-
-*/
-/*
-import GokuTransformation from "./Day3/GokuTransformation";
-
-function App() {
-  return (
-    <div>
-      <GokuTransformation></GokuTransformation>
+    <Counter></Counter>
     </div>
     );
-  }
-export default App;
-*/
+  };
+  export default App;
+  */
+ 
+ /*
+ import DynamicRendering from "./Day3/DynamicRendering";
+ function App() {
+   return (
+     <div>
+     <DynamicRendering></DynamicRendering>
+     </div>
+     );
+    }
+    export default App;
+    
+    */
+   /*
+   import GokuTransformation from "./Day3/GokuTransformation";
+   
+   function App() {
+     return (
+       <div>
+       <GokuTransformation></GokuTransformation>
+       </div>
+       );
+      }
+      export default App;
+      */
+     
+  import Login from "./Project/Login";
+  const App= () => {
+  return (
+    <div>
+      <Login></Login>
+    </div>
+  );
+};
 
-import ToggleMessage from "./Day3/ToggleMessage";
+export default App;
+
+/*import ToggleMessage from "./Day3/ToggleMessage";
 
 function App() {
   return (
@@ -62,7 +74,7 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App;*/
 
 
 // import { useState } from "react";
@@ -93,4 +105,5 @@ export default App;
 // }
 
 // export default App;
+
 
