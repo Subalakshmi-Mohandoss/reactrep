@@ -54,17 +54,7 @@ function App(){
       export default App;
       */
      
-  import Login from "./Project/Login";
-  const App= () => {
-  return (
-    <div>
-      <Login></Login>
-    </div>
-  );
-};
-
-export default App;
-
+  ?
 /*import ToggleMessage from "./Day3/ToggleMessage";
 
 function App() {
@@ -106,4 +96,16 @@ export default App;*/
 
 // export default App;
 
+import React from 'react';
+import Fruit from "./Day-4/Fruit";
+function App() {
+  return (
+    <div>
+      <h1>Enter Your Name Favourite Fruit</h1>
+      <Fruit />
+    </div>
+  );
+}
 
+
+export default App;
