@@ -54,7 +54,7 @@ function App(){
       export default App;
       */
      
-  ?
+  
 /*import ToggleMessage from "./Day3/ToggleMessage";
 
 function App() {
@@ -96,16 +96,28 @@ export default App;*/
 
 // export default App;
 
-import React from 'react';
-import Fruit from "./Day-4/Fruit";
-function App() {
+// import React from 'react';
+// import Fruit from "./Day-4/Fruit";
+// function App() {
+//   return (
+//     <div>
+//       <h1>Enter Your Name Favourite Fruit</h1>
+//       <Fruit />
+//     </div>
+//   );
+// }
+
+
+// export default App;
+
+import Search from "./Day4/Search";
+import "./Style.css";
+  const App= () => {
   return (
     <div>
-      <h1>Enter Your Name Favourite Fruit</h1>
-      <Fruit />
+      <Search/>
     </div>
   );
-}
-
+};
 
 export default App;
