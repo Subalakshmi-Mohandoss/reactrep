@@ -110,13 +110,218 @@ export default App;*/
 
 // export default App;
 
-import Search from "./Day4/Search";
-import "./Style.css";
-  const App= () => {
+// import Search from "./Day4/Search";
+// import "./Style.css";
+//   const App= () => {
+//   return (
+//     <div>
+//       <Search/>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// App.js
+// import React, { useState } from 'react';
+// import InfoCard from './Components/InfoCard';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import { v4 as uuidv4 } from 'uuid';
+
+// const App = () => {
+//   const [formData, setFormData] = useState({
+//     title: '',
+//     description: '',
+//   });
+
+//   const [cards, setCards] = useState([]);
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({ ...formData, [name]: value });
+//   };
+
+//   const handleSubmit = () => {
+//     if (formData.title && formData.description) {
+//       const newCard = { id: uuidv4(), ...formData };
+//       setCards([...cards, newCard]);
+//       setFormData({ title: '', description: '' });
+//     }
+//   };
+
+//   return (
+//     <div className="App">
+//       <div>
+//         <label>Title:</label>
+//         <input
+//           type="text"
+//           name="title"
+//           value={formData.title}
+//           onChange={handleChange}
+//         />
+//       </div>
+//       <div>
+//         <label>Description:</label>
+//         <textarea
+//           name="description"
+//           value={formData.description}
+//           onChange={handleChange}
+//         />
+//       </div>
+//       <button onClick={handleSubmit}>Add to Card</button>
+//       <div>
+//         {cards.map((card) => (
+//           <InfoCard key={card.id} data={card} />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// App.js
+
+// import React from 'react';
+// import SignUp from './Components/Signup';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// const App = () => {
+//   return (
+//     <div className="App">
+//       <SignUp />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// App.js
+
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Signup from './Components/Signup';
+// import Userdetails from './Components/Userdetails';
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Switch>
+//         <Route path="/" exact component={Signup} />
+//         <Route path="/userdetails" component={Userdetails} />
+//       </Switch>
+//     </Router>
+//   );
+// };
+
+// export default App;
+// import Day4pah from "./Day4pah";
+// const App =()=>{
+//     return (
+//       <Day4pah/>
+//     );
+// };
+// export default App;
+
+// App.js
+// import React from 'react';
+// import PhotoUpload from './PhotoUpload';
+// import './Styled.css';
+// const App = () => {
+//   const handleUpload = (files) => {
+//     // Handle the uploaded files, e.g., display or send to a server
+//     console.log('Uploaded files:', files);
+//   };
+
+//   return (
+//     <div className="App">
+//       <h1>Photo Upload App</h1>
+//       <PhotoUpload onUpload={handleUpload} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// import React, { useState } from 'react';
+
+// const SearchableList = ({ items }) => {
+//   const [searchQuery, setSearchQuery] = useState('');
+  
+//   // Filter the list based on the search query
+//   const filteredItems = items.filter(item =>
+//     item.toLowerCase().includes(searchQuery.toLowerCase())
+//   );
+
+//   return (
+//     <div>
+//       {/* Search input */}
+//       <input
+//         type="text"
+//         placeholder="Search..."
+//         value={searchQuery}
+//         onChange={(e) => setSearchQuery(e.target.value)}
+//       />
+
+//       {/* Display the filtered list if there's a search query */}
+//       {searchQuery && (
+//         <ul>
+//           {filteredItems.map((item, index) => (
+//             <li key={index}>{item}</li>
+//           ))}
+//         </ul>
+//       )}
+//     </div>
+//   );
+// };
+
+// const App = () => {
+//   const sampleItems = ['Apple', 'Banana', 'Cherry', 'Date', 'Fig'];
+
+//   return (
+//     <div>
+//       <h1>Searchable List</h1>
+//       <SearchableList items={sampleItems} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// src/App.js
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import Home from './Home';
+// import About from './About';
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <Switch>
+//         <Route path="/about" component={About} />
+//         <Route path="/" component={Home} />
+//       </Switch>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+
+// src/App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+
+const App = () => {
   return (
-    <div>
-      <Search/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 };
 
